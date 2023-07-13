@@ -1,0 +1,33 @@
+{
+  "name": "apv_delo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Aprendiendo js FullStack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisdelo97/FullStack_Delo.git"
+  },
+  "author": "Luis Delorenzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisdelo97/FullStack_Delo/issues"
+  },
+  "homepage": "https://github.com/luisdelo97/FullStack_Delo#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "nodemailer": "^6.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
