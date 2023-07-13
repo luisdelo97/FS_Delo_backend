@@ -13,7 +13,7 @@ const emailOlvidePassword = async (datos) => {
   //Enviar el email
 
   const info = await transport.sendMail({
-    from: "APV | Administrador de Pacientes de Veterinaria",
+    from: `APV | Administrador de Pacientes de Veterinaria <${process.env.EMAIL_SENDER}>`,
     to: email,
     subject: "Reestablece tu Password",
     text: "Reestablece tu Password",
